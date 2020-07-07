@@ -8,8 +8,8 @@ class DevOps_Student(Student_Data):
         self.stream = stream
         self.sparta_rank = sparta_rank
 
-    def test(self):
-        pass
+
+
 
     def study(self):
             sparta_rank = 0
@@ -27,6 +27,6 @@ class DevOps_Student(Student_Data):
 
 Andrew = DevOps_Student("Andrew", "Osborne", 21, "British/Caribbean", 21_23_46, "DevOps", 0)
 
-Andrew.study()
+# Andrew.study()
 
 Andrew.email()
